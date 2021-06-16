@@ -1,0 +1,42 @@
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 5px;
+}
+
+#logo-alura {
+    width: 145px;
+}
+
+#barra-busca {
+    width: 680px;
+    height: 50px;
+    background: var(--cor-barra-pesquisa);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    color: var(--cor-fonte-comun);
+    
+}
+
+::-webkit-input-placeholder {
+    color: var(--cor-placeholder);
+    font-size: 15px;
+ }
+
+.perfil-usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imagem-usuario {
+    margin-right: 10px;
+}
+
+.nome-usuario {
+    color: var( --cor-fonte-comun);
+}

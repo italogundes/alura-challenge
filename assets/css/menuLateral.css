@@ -1,0 +1,23 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-secao {
+    color: var(--cor-fonte-comun);
+    padding: 0 10px 10px 0;
+    letter-spacing: 3px;
+}
+
+.conteudo-menu {
+    display: flex;
+    align-items: center;
+    color: var(--cor-fonte-comun);
+    padding-bottom: 15px;
+}
+
+.titulo-menu {
+    padding-left: 10px;
+    text-decoration: none;
+    color: var(--cor-fonte-comun);
+}

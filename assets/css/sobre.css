@@ -1,0 +1,57 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px 15px;
+}
+
+.sobre input, select {
+    background-color: var(--cor-placeholder);
+    border: none;
+    margin-bottom: 2vh;
+    border-radius: 8px;
+    color: var(--cor-fonte-comun);
+    padding: 5px;
+}
+.titulos-sobre {
+    letter-spacing: 3px;
+    color: var(--cor-fonte-comun);
+    margin-bottom: 1vh;
+}
+
+#nome-projeto {
+    width: 90%;
+    height: 8%;
+}
+
+#descricao-projeto {
+    width: 90%;
+    height: 15%;
+}
+
+#selecionar-linguagem {
+    width: 90%;
+    height: 8%;
+    cursor: pointer;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+select option {
+    background-color:#3781a3;
+    font-weight: bold;
+}
+
+#selecionar-cor {
+    width: 90%;
+    height: 8%;
+    padding: 5px;
+}
+
+#btn-salvar {
+    width: 93%;
+    height: 8%;
+    background-color: var(--cor-btn-salvar);
+    cursor: pointer;
+    font-size: 20px;
+    color: #051D3B;
+}

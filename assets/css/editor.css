@@ -1,0 +1,59 @@
+.editor-codigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-colorido-editor {
+    background-color: var(--cor-fundo-editor);
+    height: 50vh;
+    max-height: 500px;
+    width: 50vw;
+    border-radius: 8px;
+}
+
+.fundo-preto {
+    background-color: var(--cor-editor-codigo);
+    margin: 32px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    height: 75%;
+    padding: 15px;
+}
+
+.mac-buttons {
+    padding: 10px;
+    place-self: start;
+    display: block;
+}
+
+.mac-buttons img {
+    margin-right: 5px;
+}
+
+#editor_txt {
+    background-color: var(--cor-editor-codigo);
+    border: none;
+    border-radius: 8px;
+    cursor: text;
+    display: block;
+    font-family: 'Verdana', sans-serif;
+    height: 65%;
+    justify-self: center;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#btn-highlight {
+    width: 100%;
+    height: 60px;
+    background: var(--cor-btn-highlight);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--cor-fonte-comun);
+    padding: 10px;
+    outline: none;
+    margin-top: 3rem;
+}

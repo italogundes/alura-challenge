@@ -1,0 +1,29 @@
+:root {
+    --cor-de-fundo: #051D3B;
+    --cor-fonte-comun: #FFFFFF;
+    --cor-barra-pesquisa: rgba(255, 255, 255, 0.16);
+    --cor-placeholder: rgba(253, 253, 253, 0.212);
+    --cor-fundo-editor: #6BD1FF;
+    --cor-editor-codigo: #141414;
+    --cor-btn-highlight: rgba(80, 129, 251, 0.08);
+    --cor-btn-salvar: #5081FB;
+}
+
+.corpo-site {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-de-fundo);
+    display: grid;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo";
+    grid-template-columns: auto;
+    grid-template-rows: 60px 100vh;
+    padding: 20px;
+}
+
+.conteudo {
+    display: grid;
+    grid-area: conteudo;
+    grid-template-columns: 1.1fr 2fr 0.9fr;
+    margin-top: 50px;
+}

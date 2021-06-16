@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/dark.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/menuLateral.css">
+    <link rel="stylesheet" href="./assets/css/editor.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <title>Editor de Código</title>
+</head>
+<body class="corpo-site">
+    <header class="cabecalho">
+        <img src="./assets/img/logo-plataforma.svg" id="logo-alura" alt="Logo AluraDev">
+        <input type="text" id="barra-busca" placeholder="Busque por algo">
+        <div class="perfil-usuario">
+            <img src="./assets/img/Photo.svg" id="imagem-usuario" alt="Imagem do Usuário">
+            <span class="nome-usuario">Harry</span>
+        </div>
+    </header>
+    <main class="conteudo">
+        <section class="menu-lateral">
+            <h2 class="titulo-secao">MENU</h2>
+            <div class="conteudo-menu">
+                <img src="./assets/img/icon-editor-codigo.svg" alt="Ícone Código">
+                <a class="titulo-menu">Editor de Código</a>
+            </div>
+            <div class="conteudo-menu">
+                <img src="./assets/img/icon-comunidade.svg" alt="Ícone Comunidade">
+                <a class="titulo-menu" target="_blank" href="comunidade.html">Comunidade</a>
+            </div>
+        </section>
+        <section class="editor-codigo">
+            <div class="fundo-colorido-editor">
+                <div class="fundo-preto">
+                    <div class="mac-buttons">
+                        <img src="./assets/img/Ellipse 1.svg" alt="Ellipse 1">
+                        <img src="./assets/img/Ellipse 2.svg" alt="Ellipse 2">
+                        <img src="./assets/img/Ellipse 3.svg" alt="Ellipse 2">
+                    </div>
+                    <div id="editor_txt" class="codigo-wrapper">
+                        <code class="preview hljs" id="input-editor" contenteditable="true" aria-label="editor"></code>
+                    </div>
+                    <!--textarea id="editor"></textarea>-->
+                </div>
+            </div>
+            <input type="button" value="Visualizar com o highlight" id="btn-highlight"> 
+        </section>
+        <section class="sobre">
+            <h2 class="titulos-sobre">SEU PROJETO</h2>
+            <input type="text" id="nome-projeto" placeholder="Nome do seu projeto">
+            <input type="text" id="descricao-projeto" placeholder="Descrição do seu projeto">
+            <h2 class="titulos-sobre">PERSONALIZAÇÃO</h2>
+            <select name="selecionar-linguagem" id="selecionar-linguagem">
+                <option value="Javascript">Javascript</option>
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="php">PHP</option>
+            </select>
+            <input type="color" id="selecionar-cor" value="#6BD1FF">
+            <input type="submit" value="Salvar Projeto" id="btn-salvar">
+        </section>
+    </main>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js"></script>
+<script src="./assets/js/highlight.js"></script>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
